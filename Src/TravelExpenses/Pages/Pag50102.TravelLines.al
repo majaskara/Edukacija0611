@@ -1,11 +1,10 @@
-page 50100 "Travel Document Header"
+page 50102 "Travel Lines"
 {
 
-    PageType = List;
-    SourceTable = "Travel Order Header";
-    Caption = 'Travel Document Header';
-    ApplicationArea = All;
-    UsageCategory = Lists;
+    PageType = ListPart;
+    SourceTable = "Travel line";
+    Caption = 'Travel Lines';
+    AutoSplitKey = true;
 
     layout
     {
@@ -13,19 +12,19 @@ page 50100 "Travel Document Header"
         {
             repeater(General)
             {
-                field("Employee Name"; "Employee Name")
+                field("Destination Description"; "Destination Description")
                 {
                     ApplicationArea = All;
                 }
-                field("Employee No."; "Employee No.")
+                field("End Date Time"; "End Date Time")
                 {
                     ApplicationArea = All;
                 }
-                field("No."; "No.")
+                field("Start Date Time"; "Start Date Time")
                 {
                     ApplicationArea = All;
                 }
-                field(SystemId; SystemId)
+                field(Destination; Destination)
                 {
                     ApplicationArea = All;
                 }

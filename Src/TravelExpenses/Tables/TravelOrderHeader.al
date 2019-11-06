@@ -12,6 +12,16 @@ table 50100 "Travel Order Header"
         field(2; "Employee No."; Code[10])
         {
             DataClassification = ToBeClassified;
+            TableRelation = Employee."No.";
+            ValidateTableRelation = true;
+
+            trigger OnValidate()
+            var
+                Employee: Record Employee;
+            begin
+                if Employee.Get("Employee No.") then
+                    "Employee Name" := Employee.FullName();
+            end;
 
         }
         field(3; "Employee Name"; Text[50])
@@ -23,7 +33,7 @@ table 50100 "Travel Order Header"
 
     keys
     {
-        key(PK; MyField)
+        key(PK; "No.")
         {
             Clustered = true;
         }

@@ -12,6 +12,10 @@ page 50102 "Travel Lines"
         {
             repeater(General)
             {
+                field("Line No."; "Line No.")
+                {
+                    ApplicationArea = All;
+                }
                 field("Destination Description"; "Destination Description")
                 {
                     ApplicationArea = All;

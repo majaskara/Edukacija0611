@@ -34,5 +34,6 @@
   ],
   "contextSensitiveHelpUrl": "https://Edukacija0611.com/help/",
   "showMyCode": true,
-  "runtime": "4.0"
+  "runtime": "4.0",
+  "features": ["TranslationFile"]
 }

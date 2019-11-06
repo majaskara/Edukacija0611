@@ -6,6 +6,6 @@ pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('Nova poruka');
+        Message('Danas je nova poruka.');
     end;
 }

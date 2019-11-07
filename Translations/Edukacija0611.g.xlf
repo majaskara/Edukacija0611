@@ -3,6 +3,61 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Edukacija0611">
     <body>
       <group id="body">
+        <trans-unit id="Table 3354101676 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel Order Header - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3354101676 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel Order Header - Field Employee No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3354101676 - Field 1480804031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel Order Header - Field Employee Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Travel line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Field 3040929904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Destination</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Field Destination - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Field 781183654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Destination Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Field Destination Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Field 2185728859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Field Start Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Field 233366074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Field End Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1623205233 - Field 1895217469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Travel line - Field Cost Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3179670986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Travel line</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -72,6 +127,21 @@
           <source>Travel Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Travel Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 711828346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Travel Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Travel Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2640570142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Travel Document Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Travel Document Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1866543944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Travel Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Travel Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3885492629 - Field 2382162837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 406314583">
           <source>Travel Cost</source>

@@ -123,16 +123,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Travel Document Card - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4158306733 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>F&amp;unction</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Travel Document Card - Action F&amp;unctions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 4158306733 - Action 3579460770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>post Travel Order</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Travel Document Card - Action Post Travel Order - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 714350231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Travel Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>

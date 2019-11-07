@@ -33,7 +33,7 @@ page 50101 "Travel Document Card"
         }
     }
 
-    actions
+    /* actions
     {
         area(Processing)
         {
@@ -54,11 +54,14 @@ page 50101 "Travel Document Card"
                     var
                         GenJnlLine: Record "Gen. Journal Line";
                         GenJnlPostLine: Codeunit "Gen. Jnl.-Post Line";
+                        TravelLine: Record "Travel line";
                     begin
+                        GenJnlLine.INIT();
                         GenJnlPostLine.Run(GenJnlLine);
                     end;
                 }
             }
         }
-    }
+    } */
+
 }

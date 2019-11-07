@@ -32,6 +32,10 @@ page 50102 "Travel Lines"
                 {
                     ApplicationArea = All;
                 }
+                field("Cost Type"; "Cost Type")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }

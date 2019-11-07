@@ -35,6 +35,10 @@ table 50101 "Travel line"
             Caption = 'End Date Time';
             DataClassification = ToBeClassified;
         }
+        field(7; "Cost Type"; Enum "Travel Cost Type")
+        {
+            DataClassification = ToBeClassified;
+        }
     }
     keys
     {

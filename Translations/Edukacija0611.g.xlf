@@ -38,6 +38,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Travel line - Field End Date Time - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3179670986 - Field 1895217469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Travel line - Field Cost Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3690705827 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -67,6 +72,26 @@
           <source>Travel Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Travel Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2528192333 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Travel Cost Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2528192333 - EnumValue 2668795821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Road Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Travel Cost Type - EnumValue Road Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2528192333 - EnumValue 1894456455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accomodation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Travel Cost Type - EnumValue Accomodation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2528192333 - EnumValue 736648186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mileage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Travel Cost Type - EnumValue Mileage - Property Caption</note>
         </trans-unit>
       </group>
     </body>

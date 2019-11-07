@@ -29,7 +29,36 @@ page 50101 "Travel Document Card"
                 ApplicationArea = All;
                 SubPageLink = "Document No." = field("No.");
             }
+
         }
     }
 
+    actions
+    {
+        area(Processing)
+        {
+            group("F&unctions")
+            {
+                Caption = 'F&unction';
+                Image = Action;
+
+                action("Post Travel Order")
+                {
+                    ApplicationArea = All;
+                    Caption = 'post Travel Order';
+                    Image = Post;
+                    Promoted = true;
+                    PromotedCategory = Process;
+
+                    trigger OnAction()
+                    var
+                        GenJnlLine: Record "Gen. Journal Line";
+                        GenJnlPostLine: Codeunit "Gen. Jnl.-Post Line";
+                    begin
+                        GenJnlPostLine.Run(GenJnlLine);
+                    end;
+                }
+            }
+        }
+    }
 }
